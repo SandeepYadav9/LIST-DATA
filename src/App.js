@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
 const data = [
-  { name: "Ispreet", id: 1 },
-  { name: "With Sandeep", id: 2 },
-  { name: "Monu", id: 3 },
-  { name: "Ispreet", id: 4 },
-  { name: "Mohali b8", id: 5 },
+  { name: "Sandeep", id: 1 },
+  { name: "Dark", id: 2 },
+  { name: "Raj", id: 3 },
+  { name: "Beena", id: 4 },
+  { name: "Monu", id: 5 },
 ];
 const App = () => {
   const [listName, setListName] = useState(data);
